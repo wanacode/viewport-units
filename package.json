@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "`npx http-server`",
   "main": "index.js",
+  "browserslist": "dead",
   "scripts": {
     "dev": "postcss css/input.css --output output.css --watch",
     "build": "postcss css/input.css --output output.css"
